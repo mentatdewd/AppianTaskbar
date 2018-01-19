@@ -15,85 +15,79 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AppianTaskbar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AppianTaskbarDlg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="DeskHook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AppianDisplayDevice.h">
+    <ClInclude Include="Desktop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AppianTheme.h">
+    <ClInclude Include="Generic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AppianTaskButton.h">
+    <ClInclude Include="GetAppianDriverRegistryKey.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AboutDlg.h">
+    <ClInclude Include="GVersion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AppianTaskbarInfo.h">
+    <ClInclude Include="PreComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegVals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AppianTaskbar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AppianTaskbarDlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AppianDisplayDevice.cpp">
+    <ClCompile Include="ATHookLibrary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AppianTheme.cpp">
+    <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AppianTaskButton.cpp">
+    <ClCompile Include="DeskHook.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AboutDlg.cpp">
+    <ClCompile Include="ExitSizeMove.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AppianTaskbarInfo.cpp">
+    <ClCompile Include="HookSize.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="AppianTaskbar.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\AppianTaskbar.rc2">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\AppianTaskbar.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\Toolbar.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\Toolbar256.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Manifest Include="AppianTaskbar.manifest" />
+    <ClCompile Include="Hwnd2Exe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegHook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowPosChanging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
